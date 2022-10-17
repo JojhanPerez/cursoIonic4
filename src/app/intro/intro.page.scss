@@ -1,0 +1,44 @@
+ion-content {
+    font-family: "Times New Roman", Times, serif;
+    border: 5px solid var(--ion-color-success);
+  }
+  
+  ion-slides {
+    background-color: white;
+    height: 100%;
+    max-width: 800px;
+  }
+  .swiper-slide {
+    display: block;
+    margin-bottom: 64px;
+    background-color: white;
+  }
+  ion-slide > h1,
+  h2 {
+    margin: 0 0 0 0;
+    color: var(--ion-color-primary);
+  }
+  ion-slide > p {
+    font-style: italic;
+    font-size: 22px;
+    padding: 1em 1em 1em 1em;
+  }
+  ion-slide > ion-icon {
+    color: var(--ion-color-success);
+    font-size: 48px;
+  }
+  ion-slide > ion-icon[name="close-outline"] {
+    float: right;
+    color: var(var(--ion-color-success));
+    font-size: 48px;
+  }
+  
+  ion-slide > img {
+    max-height: 50%;
+    max-width: 60%;
+    margin: 64px 0;
+  }
+  
+  p {
+    color: black;
+  }

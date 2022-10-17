@@ -1,0 +1,16 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>sports</ion-title>
+    <ion-buttons slot="end">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <google-map *ngIf="currentCenter" [center]="center" [zoom]="defaultZoom">
+    <map-marker [position]="center" icon='assets/img/bicycle.png'></map-marker>
+    <map-polyline *ngIf="coordinates" strokeColor='red' [path]="coordinates">
+    </map-polyline>
+  </google-map>
+</ion-content>
